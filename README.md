@@ -11,9 +11,9 @@ Library para minificação de URL usando o [migre.me](http://migre.me)
 Minificar
 
 ```javascript
-var url = require('short-url');
+var migre = require('migre-me-url');
 
-shorten("https://luigifreitas.me", function(err, result){
+migre.shorten("https://luigifreitas.me", function(err, result){
    if (err) throw err; // Mostra se ocorreu algum erro.
    console.log(result) // http://migre.me/qThaV
 })
