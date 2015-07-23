@@ -1,5 +1,5 @@
 {
-  "name": "migre.me",
+  "name": "migre-me-url",
   "version": "0.0.1",
   "engine": "node 0.4.1",
   "description": "migre.me url shortener",
