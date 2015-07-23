@@ -1,3 +1,5 @@
+'use strict';
+
 var request = require("request"),
    http = require("http");
 
@@ -29,3 +31,7 @@ function shorten(url, callback) {
       return;
    });
 }
+
+module.exports = {
+  shorten: shorten
+};
